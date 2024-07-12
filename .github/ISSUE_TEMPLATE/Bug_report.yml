@@ -71,3 +71,17 @@ body:
       render: plain
     validations:
       required: true
+  - type: textarea
+    id: br-remarks
+    attributes:
+      label: Reproduce remarks
+      description: Is there additional information that will help to reproduce?
+      placeholder: eg. disabled erase mode and there is no issues/tried under ubuntu18 did not work but macos and ubuntu22 works...
+  - type: checkboxes
+    id: br-confirmation
+    attributes:
+      label: I have checked online documentation, FAQ, GitHub Wiki and existing/closed issues.
+      description: Before opening a new issue, please check all resources above.
+      options:
+        - label: I confirm I have checked online documentation, FAQ, GitHub Wiki and existing/closed issues.
+          required: true
