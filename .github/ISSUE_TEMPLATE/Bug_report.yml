@@ -46,10 +46,10 @@ body:
     validations:
       required: true
 - type: textarea
-    id: br-version
+    id: br-addon-commitno
     attributes:
       label: Commit number
       description: What's the commit number? Please use the latest version if possible.
-      placeholder: 
+      placeholder: eg. sensors, peripherals...
     validations:
       required: true
