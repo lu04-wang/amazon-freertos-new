@@ -45,3 +45,22 @@ body:
         - amebaZ2-7.1d-202107.00-LTS
     validations:
       required: true
+  - type: input
+    id: br-ide
+    attributes:
+     label: IDE Name
+     description: What is the IDE?
+     placeholder: eg. Arduino IDE 2.2.1
+    validations:
+     required: true
+  - type: dropdown
+    id: br-erase-flash-mode
+    attributes:
+      label: Erase All Flash Memory (16MB)
+      description: Is erase flash enabled?
+      options:
+        - 'Disable'
+        - 'Erase only'
+        - 'Erase then Upload'
+    validations:
+      required: true
