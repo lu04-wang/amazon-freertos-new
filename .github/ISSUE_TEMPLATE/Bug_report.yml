@@ -50,6 +50,6 @@ body:
     attributes:
       label: Commit number
       description: What's the commit number? Please use the latest version if possible.
-      placeholder: 
+      placeholder: eg. 2a3ab28
     validations:
       required: true
