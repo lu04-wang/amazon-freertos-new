@@ -5,17 +5,16 @@ body:
   - type: markdown
     attributes:
       value: |
-        * Please check [Online Documentation](https://www.amebaiot.com/en/ameba-arduino-summary/)
-        * Please check [FAQ](https://forum.amebaiot.com/c/faq/48), [forum](https://forum.amebaiot.com/) and [GitHub Wiki](https://github.com/ambiot/ambpro2_arduino/wiki)
-        * Please check and search in [List of closed issues](https://github.com/ambiot/ambpro2_arduino/issues?q=is%3Aissue+is%3Aclosed)
-        * Please check and search in [List of existing issues](https://github.com/ambiot/ambpro2_arduino/issues?q=is%3Aopen+is%3Aissue)
+        * Please check [Online Documentation](https://www.amebaiot.com/en/amebaz2/)
+        * Please check and search in [List of closed issues](https://github.com/Ameba-AIoT/amazon-freertos/issues?q=is%3Aissue+is%3Aclosed)
+        * Please check and search in [List of existing issues](https://github.com/Ameba-AIoT/amazon-freertos/issues?q=is%3Aopen+is%3Aissue)
         * If still experiencing the issue, please provide as many details as possible below about your hardware, environment setup and software.
   - type: input
     id: br-boards
     attributes:
       label: Boards
       description: What is the hardware/module using?
-      placeholder: eg. AMB01, AMB23, BW16 or AMB82-mini...
+      placeholder: eg. AmebaZ2, AmebaD, AmebaDPlus, AmebaPro or AmebaPRo2...
     validations:
       required: true
   - type: textarea
@@ -37,19 +36,21 @@ body:
   - type: dropdown
     id: br-version
     attributes:
-      label: Version
-      description: What version of ambpro2_arduino SDK? Please use the latest version if possible.
+      label: Branch
+      description: What branch of Realtek Amazon freertos SDK? 
       options:
-        - latest dev (checkout manually)
-        - latest main (checkout manually)
-        - v4.0.6
-        - v4.0.5
-        - v4.0.4
-        - v4.0.3
-        - v4.0.2
-        - v4.0.1
-        - v4.0.0
-        - other
+        - FreeRTOS-LTS-202210.xx
+        - amebaPro-5.2h-202107.00-LTS
+        - amebaPro2-9.x-202107.00-LTS
+        - amebaZ2-7.1d-202107.00-LTS
+    validations:
+      required: true
+- type: textarea
+    id: br-addon-commitno
+    attributes:
+      label: Commit number
+      description: What's the commit number? Please use the latest version if possible.
+      placeholder: 
     validations:
       required: true
   - type: input
@@ -60,24 +61,6 @@ body:
      placeholder: eg. Arduino IDE 2.2.1
     validations:
      required: true
-  - type: input
-    id: br-os
-    attributes:
-      label: Operating System
-      description: On which OS does this issue occur?
-      placeholder: eg. macOS Monterey (version 12), Windows 11, ubuntu22...
-    validations:
-      required: true
-  - type: dropdown
-    id: br-auto-flash-mode
-    attributes:
-      label: Auto Flash Mode
-      description: Is auto flash mode enabled?
-      options:
-        - 'Disable'
-        - 'Enable'
-    validations:
-      required: true
   - type: dropdown
     id: br-erase-flash-mode
     attributes:
@@ -87,27 +70,6 @@ body:
         - 'Disable'
         - 'Erase only'
         - 'Erase then Upload'
-    validations:
-      required: true
-  - type: dropdown
-    id: br-standard-lib
-    attributes:
-      label: Standard Lib
-      description: Is Standard Lib enabled?
-      options:
-        - 'Arduino_STD_PRINTF'
-        - 'Disable'
-    validations:
-      required: true
-  - type: dropdown
-    id: br-upload-speed
-    attributes:
-      label: Upload Speed
-      description: What is the Upload speed?
-      options:
-        - '2000000'
-        - '1000000'
-        - '230400'
     validations:
       required: true
   - type: textarea
