@@ -45,11 +45,11 @@ body:
         - amebaZ2-7.1d-202107.00-LTS
     validations:
       required: true
-- type: textarea
-    id: br-addon-commitno
+  - type: textarea
+    id: br-addon-hw
     attributes:
-      label: Commit number
-      description: What's the commit number? Please use the latest version if possible.
+      label: Hardware Configuration
+      description: Is anything else attached to the Hardware?
       placeholder: eg. sensors, peripherals...
     validations:
       required: true
