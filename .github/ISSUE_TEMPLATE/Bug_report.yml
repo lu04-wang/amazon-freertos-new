@@ -45,22 +45,29 @@ body:
         - amebaZ2-7.1d-202107.00-LTS
     validations:
       required: true
-  - type: input
-    id: br-ide
+  - type: textarea
+    id: br-description
     attributes:
-     label: IDE Name
-     description: What is the IDE?
-     placeholder: eg. Arduino IDE 2.2.1
+      label: Description
+      description: Please describe the issue/bug here and expected behaviour
+      placeholder: eg. compile error/hard fault/connectiong issue/weird behaviour/missing parameter...
+    validations:
+      required: true
+  - type: textarea
+    id: br-sketch
+    attributes:
+      label: Sketch
+      description: Please provide sketch/code that can be used to reproduce the bug/issue
+      placeholder: eg. aruino example ino files...
+      render: cpp
     validations:
      required: true
-  - type: dropdown
-    id: br-erase-flash-mode
+  - type: textarea
+    id: br-error
     attributes:
-      label: Erase All Flash Memory (16MB)
-      description: Is erase flash enabled?
-      options:
-        - 'Disable'
-        - 'Erase only'
-        - 'Erase then Upload'
+      label: Error/Debug Message
+      description: Please provide error/debug message.
+      placeholder: eg. error message from Arduino IDE...
+      render: plain
     validations:
       required: true
