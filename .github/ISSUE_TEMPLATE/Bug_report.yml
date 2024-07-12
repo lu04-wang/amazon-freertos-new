@@ -17,3 +17,19 @@ body:
       placeholder: eg. AmebaZ2, AmebaD, AmebaDPlus, AmebaPro or AmebaPRo2...
     validations:
       required: true
+  - type: textarea
+    id: br-ex-hw
+    attributes:
+      label: External Hardware
+      description: Any external hardware that Ameba board attached to?
+      placeholder: eg. third-party extension, plain module on breadboard, customized hardware... please attach a photo if necessary.
+    validations:
+       required: true
+  - type: textarea
+    id: br-addon-hw
+    attributes:
+      label: Hardware Configuration
+      description: Is anything else attached to the Hardware?
+      placeholder: eg. sensors, peripherals...
+    validations:
+      required: true
