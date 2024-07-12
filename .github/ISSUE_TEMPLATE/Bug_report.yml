@@ -33,3 +33,23 @@ body:
       placeholder: eg. sensors, peripherals...
     validations:
       required: true
+  - type: dropdown
+    id: br-version
+    attributes:
+      label: Branch
+      description: What branch of Realtek Amazon freertos SDK? 
+      options:
+        - FreeRTOS-LTS-202210.xx
+        - amebaPro-5.2h-202107.00-LTS
+        - amebaPro2-9.x-202107.00-LTS
+        - amebaZ2-7.1d-202107.00-LTS
+    validations:
+      required: true
+- type: textarea
+    id: br-addon-commitno
+    attributes:
+      label: Commit number
+      description: What's the commit number? Please use the latest version if possible.
+      placeholder: 
+    validations:
+      required: true
