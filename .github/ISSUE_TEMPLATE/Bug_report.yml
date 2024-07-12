@@ -67,7 +67,7 @@ body:
     attributes:
       label: Sketch
       description: Please provide sketch/code that can be used to reproduce the bug/issue
-      placeholder: eg. aruino example ino files...
+      placeholder: eg. example ino files...
       render: cpp
     validations:
      required: true
@@ -76,7 +76,7 @@ body:
     attributes:
       label: Error/Debug Message
       description: Please provide error/debug message.
-      placeholder: eg. error message from Arduino IDE...
+      placeholder: eg. error message from IDE...
       render: plain
     validations:
       required: true
@@ -85,7 +85,7 @@ body:
     attributes:
       label: Reproduce remarks
       description: Is there additional information that will help to reproduce?
-      placeholder: eg. disabled erase mode and there is no issues/tried under ubuntu18 did not work but macos and ubuntu22 works...
+      placeholder: eg. disabled macro and there is no issues...
   - type: checkboxes
     id: br-confirmation
     attributes:
