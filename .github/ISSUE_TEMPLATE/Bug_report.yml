@@ -14,7 +14,7 @@ body:
     attributes:
       label: Boards
       description: What is the hardware/module using?
-      placeholder: eg. AmebaZ2, AmebaD, AmebaDPlus, AmebaPro or AmebaPRo2...
+      placeholder: eg. AmebaZ2, AmebaD, AmebaDPlus, AmebaPro or AmebaPro2...
     validations:
       required: true
   - type: textarea
