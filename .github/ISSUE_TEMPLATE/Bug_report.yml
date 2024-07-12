@@ -46,6 +46,15 @@ body:
     validations:
       required: true
   - type: textarea
+    id: br-error
+    attributes:
+      label: Error/Debug Message
+      description: Please provide error/debug message.
+      placeholder: eg. error message from Arduino IDE...
+      render: plain
+    validations:
+      required: true
+  - type: textarea
     id: br-description
     attributes:
       label: Description
