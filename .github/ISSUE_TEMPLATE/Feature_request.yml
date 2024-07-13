@@ -6,8 +6,8 @@ body:
     attributes:
       value: |
         * We welcome any feature requests! It is helpful if you can explain exactly why the feature would be useful.
-        * There are some outstanding feature requests in the [List of existing issues](https://github.com/ambiot/ambpro2_arduino/issues?q=is%3Aopen+is%3Aissue) and [List of closed issues](https://github.com/ambiot/ambpro2_arduino/issues?q=is%3Aissue+is%3Aclosed), feel free to add any comments.
-        * If you would like to contribute, please refer to the [Contributing guide](https://github.com/ambiot/ambpro2_arduino/blob/dev/CONTRIBUTING.md).
+        * There are some outstanding feature requests in the [List of existing issues](https://github.com/Ameba-AIoT/amazon-freertos/issues?q=is%3Aopen+is%3Aissue) and [List of closed issues](https://github.com/Ameba-AIoT/amazon-freertos/issues?q=is%3Aissue+is%3Aclosed), feel free to add any comments.
+        * If you would like to contribute, please refer to the [Contributing guide](https://github.com/Ameba-AIoT/amazon-freertos/blob/FreeRTOS-LTS-202210.xx/CONTRIBUTING.md).
   - type: input
     id: fr-area
     attributes:
@@ -27,7 +27,7 @@ body:
   - type: textarea
     id: fr-ideal-solution
     attributes:
-      label: Describe the ideal solution/reault/output.
+      label: Describe the ideal solution/result/output.
       description: Please provide a clear and concise description of what you want to happen.
       placeholder: eg. With this request implemented, sensor xxx will be fully supported...
     validations:
