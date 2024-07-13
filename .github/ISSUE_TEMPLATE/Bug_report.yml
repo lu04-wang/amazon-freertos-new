@@ -6,6 +6,7 @@ body:
     attributes:
       value: |
         * Please check [Online Documentation](https://www.amebaiot.com/en/amebaz2/)
+        * Please check [FAQ](https://forum.amebaiot.com/c/faq/48), [forum](https://forum.amebaiot.com/)
         * Please check and search in [List of closed issues](https://github.com/Ameba-AIoT/amazon-freertos/issues?q=is%3Aissue+is%3Aclosed)
         * Please check and search in [List of existing issues](https://github.com/Ameba-AIoT/amazon-freertos/issues?q=is%3Aopen+is%3Aissue)
         * If still experiencing the issue, please provide as many details as possible below about your hardware, environment setup and software.
