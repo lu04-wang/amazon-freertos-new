@@ -5,13 +5,8 @@ This is the library sdk which provides Amazon freertos examples. To make sure ex
 |Chip         |          Link       |     Supported branch link      |
 |:----------- |:---------------------:| :---------------------:|
 |Ameba Z2     | https://github.com/Ameba-AIoT/ambz2_sdk| https://github.com/Ameba-AIoT/amazon-freertos/tree/amebaZ2-7.1d-202107.00-LTS |
-|AmebaLite    |![alt text][supported] | ![alt text][supported] |
-|AmebaDplus   |![alt text][supported] | ![alt text][supported] |
+|The rest chip is under developing   |comming soon | comming soon|
 
-| Chip SDK  | Link |Supported branch|
-| ------------- | ------------- |
-| Ameba Z2  | https://github.com/Ameba-AIoT/ambz2_sdk ||
-| Others Chip  | Under develop, comming soon  |
 
 ## Cloning
 This repo uses [Git Submodules](https://git-scm.com/book/en/v2/Git-Tools-Submodules) to bring in dependent components.
