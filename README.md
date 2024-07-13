@@ -1,6 +1,7 @@
 # FreeRTOS AWS Reference Integrations
 ## How to use
 This is the library sdk which provides Amazon freertos examples. To make sure example working correctly, please download the working sdk from related page with this submodule and enable Amazon example macro.
+
 | Chip SDK  | Link |Supported branch|
 | ------------- | ------------- |
 | Ameba Z2  | https://github.com/Ameba-AIoT/ambz2_sdk |https://github.com/Ameba-AIoT/amazon-freertos/tree/amebaZ2-7.1d-202107.00-LTS|
